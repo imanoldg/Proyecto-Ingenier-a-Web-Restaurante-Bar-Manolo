@@ -1,3 +1,37 @@
 header{
-    
+    background-color: rgb(175, 95, 95);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo{
+    font-size: 24px;
+    color: black;
+}
+
+.logo:hover{
+    color: black;
+}
+
+a{
+    color:rgb(221, 198, 94);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(241, 241, 241);
 }
