@@ -3,11 +3,6 @@
     padding: 0 auto;
 }
 
-
-section{
-    background-color: black;
-}
-
-#fotoFuera{
-    max-width: 50%;
+#fotoPrincipal{
+    background-image: url(./images/fotoPrincipal2.jpg);
 }
