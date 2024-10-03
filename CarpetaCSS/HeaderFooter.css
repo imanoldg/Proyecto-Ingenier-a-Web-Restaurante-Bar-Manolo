@@ -4,7 +4,7 @@
 }
 
 header{
-    background-color: rgb(175, 95, 95);
+    background-color: rgb(224, 126, 126);
 }
 
 nav{
@@ -31,10 +31,10 @@ ul li{
 }
 
 a{
-    color:rgb(221, 198, 94);
+    color:rgb(253, 231, 131);
     text-decoration: none;
 }
 
 a:hover{
-    color: rgb(241, 241, 241);
+    color: rgb(172, 156, 89);
 }
