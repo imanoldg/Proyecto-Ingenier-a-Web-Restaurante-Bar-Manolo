@@ -8,6 +8,39 @@ h1{
 #portada{
     background-image: url(../images/fabada.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
+}
+
+#menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(autofill, minmax(200px, 1fr));
+    grid-gap: 5%;
+    padding-top: 6%;
+    padding-left: 10%;
+    padding-right: 3%;
+}
+
+.c1_1{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.c1_2{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.c1_3{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+h2{
+    padding-top: 3%;
+}
+
+p{
+    font-size:x-large;
 }
