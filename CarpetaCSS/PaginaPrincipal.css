@@ -46,3 +46,7 @@ th{
     padding-bottom: 25px;
     font-size: 25px;
 }
+
+#fotoPrincipal img{
+    vertical-align: bottom;
+}
