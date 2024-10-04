@@ -1,6 +1,5 @@
 *{
     margin: 0 auto;
-    padding: 0 auto;
 }
 
 body{
@@ -17,7 +16,7 @@ h1{
 
 #sobreNosotros{
     background-color: white;
-    padding-top: 12%;
+    padding-top: 10%;
     padding-bottom: 12%;
 }
 
@@ -32,7 +31,7 @@ h1{
 }
 
 #partesDelBar{
-    padding-top: 14%;
+    padding-top: 2%;
     padding-bottom: 14%;
 }
 
@@ -49,4 +48,5 @@ th{
 
 #fotoPrincipal img{
     vertical-align: bottom;
+    width: 100%;
 }

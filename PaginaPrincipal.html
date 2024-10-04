@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <link rel="stylesheet" href="CarpetaCSS/HeaderFooter.css">
     <link rel="stylesheet" href="CarpetaCSS/PaginaPrincipal.css">
@@ -10,7 +10,7 @@
    
     <header>
         <nav>
-            <a href="PaginaPrincipal.html"><img src="images/LOGO.png" alt="Logo del bar" width="50%"></a>
+            <a href="PaginaPrincipal.html"><img src="images/LOGO.png" alt="Logo del bar"id="logo"></a>
               <ul>
                   <li><a href="PaginaPrincipal.html">RESTAURANTE</a></li>
                   <li><a href="carta.html">CARTA</a></li>
@@ -23,15 +23,20 @@
     <main>
 
         <article id="fotoPrincipal">
-            <img src="images/fotoPrincipal3.png" width="100%" alt="Foto del interior del restaurante">
+            <img src="images/fotoPrincipal3.png" alt="Foto del interior del restaurante">
         </article>
 
         <article id="sobreNosotros">
-            <h1>Un lugar especial para un momento especial</h1>
-            <p>Bienvenidos a Bar Manolo, un rincón gastronómico con tradición y sabor, ubicado en el corazón de Guarromán, Murcia. 
-                Desde hace más de 60 años, ofrecemos a nuestros clientes una experiencia culinaria única, donde la cocina mediterránea y los productos locales se fusionan en platos exquisitos. 
-                Ya sea para disfrutar de un almuerzo relajado, unas tapas con amigos o una cena inolvidable, en Bar Manolo siempre encontrarás el ambiente acogedor y familiar que nos caracteriza. 
-                ¡Te esperamos para compartir momentos especiales y el auténtico sabor de nuestra tierra!
+            <h1>¡Te invitamos a disfrutar de una experiencia gastronómica única!</h1>
+            <p>Nos encantaría que nos acompañaras en nuestro restaurante ubicado en Guarromán, Murcia, 
+                donde la pasión por la buena comida se une con el ambiente acogedor para crear momentos inolvidables. <br> <br>
+
+                Te ofrecemos una amplia variedad de platos preparados con los mejores ingredientes locales y un toque especial de nuestra cocina. 
+                Ya sea que busques una comida rápida o una cena relajada con amigos y familiares, estamos aquí para sorprenderte.<br> <br>
+                
+                ¡Ven a visitarnos y déjate seducir por los sabores de nuestra cocina! <br> <br>
+
+                Te esperamos con los brazos abiertos.
             </p>
         </article>
 
@@ -59,13 +64,22 @@
     </main>
 
     <footer>
-        <article>
-            <h4 id="tituloAbajo">SOBRE NOSOTROS</h4>
-            <p id="textoAbajo">En Bar Manolo nos enorgullece ser un referente en Guarromán, Murcia, donde la calidad, el buen servicio y el ambiente familiar se unen para ofrecerte una experiencia gastronómica inigualable. 
-            Visítanos y descubre el sabor de la auténtica cocina mediterránea, preparada con productos frescos y locales. 
+        <section id="seccionIzquierda">
+            <h4 class="titulosAbajo">SOBRE NOSOTROS</h4>
+            <p class="textoAbajo">En Bar Manolo nos enorgullece ser un referente en Guarromán, Murcia, donde la calidad, el buen servicio y el ambiente familiar se unen para ofrecerte una experiencia gastronómica inigualable. 
+            Visítanos y descubre el sabor de la auténtica cocina mediterránea, preparada con productos frescos y locales. <br> <br>
             ¡Gracias por confiar en nosotros y ser parte de nuestra familia!
             </p>
-        </article>
+        </section>
+
+        <section id="seccionDerecha">
+            <h4 class="titulosAbajo">SUSCRÍBASE</h4>
+            <form>
+                <p class="textoAbajo">Escriba su e-mail</p>
+                <input type="text" size="50" id="texto"> <br> <br>
+                <input type="submit" value = "ENVIAR" id="boton">
+            </form>
+        </section>
     </footer>
 </body>
 </html>

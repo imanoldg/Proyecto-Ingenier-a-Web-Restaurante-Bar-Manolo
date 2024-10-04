@@ -8,7 +8,7 @@
 <body>
     <header>
         <nav>
-            <a href="PaginaPrincipal.html"><img src="images/LOGO.png" alt="Logo del bar" width="50%"></a>
+            <a href="PaginaPrincipal.html"><img src="images/LOGO.png" alt="Logo del bar" id="logo"></a>
               <ul>
                   <li><a href="PaginaPrincipal.html">RESTAURANTE</a></li>
                   <li><a href="">CARTA</a></li>
@@ -24,31 +24,81 @@
         </article>
 
         <article id="menu">
-            <section class="c1_1">
-                <img src="images/embutidos.jpg" alt="Imagen de un embutido" width="70%">
+            <section id="c1_1">
+                <img src="images/embutidos.jpg" alt="Imagen de un embutido">
                 <h2>Entrantes</h2>
-                <p>
+                <p class="textoMenu">
                     Jamon de bellota <br> Lomo de bellota <br> Queso idiazabal <br> 
                     Chorizo de bellota <br> Salchichonn de bellota <br> Fuet de bellota <br> 
                     Croquetas <br> Chipirones <br> Gambas al ajillo
                 </p>
             </section>
 
-            <section class="c1_2">
-                <img src="images/lentejas.jpg" alt="Imagen de un puchero de lentejas" width="70%">
-                <h2>Menu 1</h2>
+            <section id="c1_2">
+                <img src="images/lentejas.jpg" alt="Imagen de un puchero de lentejas">
+                <h2>Primeros Platos</h2>
+                <p class="textoMenu">
+                    Puchero de lentejas <br> Alubias rojas <br> Potaje <br> Pure de puerros <br>
+                    Callos <br> 
+                </p>
             </section>
 
-            <section class="c1_3">
-                <img src="images/revueltoSetas.jpg" alt="Imagen de un revuelto de setas" width="70%">
-                <h2>Menu 2</h2>
+            <section id="c1_3">
+                <img src="images/revueltoSetas.jpg" alt="Imagen de un revuelto de setas">
+                <h2>Segundos Platos</h2>
+                <p class="textoMenu">
+                    Revuelto de setas <br> Entrecot 500gr <br> Lubina a la plancha <br> Filete de vaca <br>
+                    Salmon
+                </p>
             </section>
 
-            <section class="c2_1">
-                <img src="images/pescado.jpg" alt="Imagen de un plato de pescado" width="70%">
-                <h2>Menu 3</h2>
+            <section id="c2_1">
+                <img src="images/guarnicion.jpg" alt="Imagen de un plato de pescado">
+                <h2>Guarniciones</h2>
+                <p class="textoMenu">
+                    Ensalada de la casa <br> Pimientos verdes a la plancha <br> Esparragos blancos <br>
+                    Setas a la plancha <br> Patatas ahumadas
+                </p>
+            </section>
+
+            <section id="c2_2">
+                <img src="images/postre.jpg" alt="Imagen de una tarta de queso">
+                <h2>Postres</h2>
+                <p class="textoMenu">
+                    Tarta de queso <br> Flan casero <br> Arroz con leche <br>
+                    Crema catalana
+                </p>
+            </section>
+
+            <section id="c2_3">
+                <img src="images/vino.jpg" alt="Imagen de una copa de vino">
+                <h2>Bebidas</h2>
+                <p class="textoMenu">
+                    Vino tinto <br> Vino blanco <br> Cerveza <br> Agua <br> Café <br> Copa <br>
+                    Refresco
+                </p>
             </section>
         </article>
     </main>
+
+    <footer>
+        <section id="seccionIzquierda">
+            <h4 class="titulosAbajo">SOBRE NOSOTROS</h4>
+            <p class="textoAbajo">En Bar Manolo nos enorgullece ser un referente en Guarromán, Murcia, donde la calidad, el buen servicio y el ambiente familiar se unen para ofrecerte una experiencia gastronómica inigualable. 
+            Visítanos y descubre el sabor de la auténtica cocina mediterránea, preparada con productos frescos y locales. <br> <br>
+            ¡Gracias por confiar en nosotros y ser parte de nuestra familia!
+            </p>
+        </section>
+
+        <section id="seccionDerecha">
+            <h4 class="titulosAbajo">SUSCRÍBASE</h4>
+            <form>
+                <p class="textoAbajo">Escriba su e-mail</p>
+                <input type="text" size="50" id="texto"> <br> <br>
+                <input type="submit" value = "ENVIAR" id="boton">
+            </form>
+        </section>
+    </footer>
+
 </body>
 </html>
