@@ -9,16 +9,19 @@
     font-size: 40px;
 }
 
-#zonaFormulario{
-    padding-top: 8%;
-    padding-left: 15%;
+#Formulario{
+    align-items: center;
+    margin-top: 8%;
+    margin-left: 35%;
+    margin-bottom: 10%;
     display: inline-block;
     width: 40%;
 }
 
-#zonaFormulario h2{
+#tituloFormulario{
     padding-bottom: 2%;
     font-size: 30px;
+    margin-left: 10%;
 }
 
 label{
@@ -32,10 +35,11 @@ label{
     border: 1px solid #51515137;
     cursor: pointer;
     margin-bottom: 24px;
+    outline: none;
 }
 
 .inputs:focus{
-    border: 0;
+    border: 1px solid rgb(224, 126, 126);
 }
 
 #comensales{
@@ -58,10 +62,11 @@ label{
     border-radius: 8px;
     border: 1px solid #51515137;
     cursor: pointer;
+    outline: none;
 }
 
 .FyH:focus{
-    border: 2px solid rgb(224, 126, 126);
+    border: 1px solid rgb(224, 126, 126);
 }
 
 .radio{
@@ -71,16 +76,22 @@ label{
 }
 
 #textoAlergias{
-    width: 50%;
+    width: 70%;
     margin-bottom: 24px;
     margin-bottom: 24px;
     border-radius: 8px;
     border: 1px solid #51515137;
     cursor: pointer;
+    outline: none;
+}
+
+#textoAlergias:focus{
+    border: 1px solid rgb(224, 126, 126);
 }
 
 #checkbox{
     margin-bottom: 24px;
+    margin-left: 15%;
 }
 
 #botonEnviar{
@@ -93,4 +104,11 @@ label{
     border-radius: 6px;
     font-size: 17px;
     cursor: pointer;
+    margin-left: 20%;
+}
+
+#tituloMapa{
+    padding-bottom: 2%;
+    font-size: 30px;
+    margin-left: 5%;
 }

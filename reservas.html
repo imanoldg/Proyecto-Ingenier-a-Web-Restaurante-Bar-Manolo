@@ -25,9 +25,9 @@
             <h1>RESERVAS</h1>
         </section>
 
-        <section id="seccionFI">
-            <article id="zonaFormulario">
-                <h2>Ingrese sus datos para la reserva:</h2> <br>
+        <section>
+            <article id="Formulario">
+                <h2 id="tituloFormulario">Ingrese sus datos para la reserva:</h2> <br>
                 <form>
                     <label for="nombre">Nombre de la reserva:</label> <br>
                     <input type="text" name="nombre" id="nombre" class="inputs"> <br>
@@ -58,15 +58,42 @@
                     <label for="checkbox">Acepto la politica de privacidad</label><br><br>
                     <input type="submit" id="botonEnviar" value="Enviar">
                 </form>
-            </article>
 
-            <article id="zonaInformacion">
+                 <!--Este mapa lo he insertado con la ayuda de tutoriales de YouTube-->
+                
+                 <h2 id="tituloMapa">Nos puede encontrar en esta ubicación</h2>
+                
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d784.0298981315219!2d-3.6885157303459932!3d38.18389605239239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzjCsDExJzAyLjAiTiAzwrA0MScxNi4zIlc!5e0!3m2!1ses!2ses!4v1728137888693!5m2!1ses!2ses" 
+                     width="600" 
+                     height="450" 
+                     style="border:0;" 
+                     allowfullscreen="" 
+                     loading="lazy" 
+                     referrerpolicy="no-referrer-when-downgrade">
+                 </iframe>
 
             </article>
         </section>
     </main>
 
+    <footer>
+        <section id="seccionIzquierda">
+            <h4 class="titulosAbajo">SOBRE NOSOTROS</h4>
+            <p class="textoAbajo">En Bar Manolo nos enorgullece ser un referente en Guarromán, Murcia, donde la calidad, el buen servicio y el ambiente familiar se unen para ofrecerte una experiencia gastronómica inigualable. 
+            Visítanos y descubre el sabor de la auténtica cocina mediterránea, preparada con productos frescos y locales. <br> <br>
+            ¡Gracias por confiar en nosotros y ser parte de nuestra familia!
+            </p>
+        </section>
 
+        <section id="seccionDerecha">
+            <h4 class="titulosAbajo">SUSCRÍBASE</h4>
+            <form>
+                <p class="textoAbajo">Escriba su e-mail</p>
+                <input type="text" id="texto"> <br> <br>
+                <input type="submit" value = "ENVIAR" id="boton">
+            </form>
+        </section>
+    </footer>
 
 </body>
 </html>
