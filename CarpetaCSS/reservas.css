@@ -1,0 +1,96 @@
+#portada{
+    padding-top: 15%;
+    padding-bottom: 8%;
+    text-align: center;
+    background-image: url(../images/Reserva.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 40px;
+}
+
+#zonaFormulario{
+    padding-top: 8%;
+    padding-left: 15%;
+    display: inline-block;
+    width: 40%;
+}
+
+#zonaFormulario h2{
+    padding-bottom: 2%;
+    font-size: 30px;
+}
+
+label{
+    font-size: 20px;
+}
+
+.inputs{
+    width: 70%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #51515137;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+
+.inputs:focus{
+    border: 0;
+}
+
+#comensales{
+    width: 10%;
+    padding: 7px;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    border: 1px solid #51515137;
+    cursor: pointer;
+}
+
+#comensales:focus{
+    border: 1px solid rgb(224, 126, 126);
+}
+
+.FyH{
+    width: 30%;
+    margin-bottom: 24px;
+    padding: 7px;
+    border-radius: 8px;
+    border: 1px solid #51515137;
+    cursor: pointer;
+}
+
+.FyH:focus{
+    border: 2px solid rgb(224, 126, 126);
+}
+
+.radio{
+    margin-top: 10px;
+    margin-bottom: 24px;
+    width: 3%;
+}
+
+#textoAlergias{
+    width: 50%;
+    margin-bottom: 24px;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    border: 1px solid #51515137;
+    cursor: pointer;
+}
+
+#checkbox{
+    margin-bottom: 24px;
+}
+
+#botonEnviar{
+    margin-bottom: 48px;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    padding: 15px;
+    width: 30%;
+    border: 0;
+    border-radius: 6px;
+    font-size: 17px;
+    cursor: pointer;
+}

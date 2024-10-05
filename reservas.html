@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="CarpetaCSS/HeaderFooter.css">
+    <link rel="stylesheet" href="CarpetaCSS/reservas.css">
+    <title>Reservas - Restaurante Bar Manolo</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="PaginaPrincipal.html"><img src="images/LOGO.png" alt="Logo del bar" id="logo"></a>
+              <ul>
+                  <li><a href="PaginaPrincipal.html">RESTAURANTE</a></li>
+                  <li><a href="carta.html">CARTA</a></li>
+                  <li><a href="">ESPECIALIDADES</a></li>
+                  <li><a href="reservas.html">RESERVAS</a></li>
+              </ul>
+          </nav> 
+    </header>
+
+    <main>
+
+        <section id="portada">
+            <h1>RESERVAS</h1>
+        </section>
+
+        <section id="seccionFI">
+            <article id="zonaFormulario">
+                <h2>Ingrese sus datos para la reserva:</h2> <br>
+                <form>
+                    <label for="nombre">Nombre de la reserva:</label> <br>
+                    <input type="text" name="nombre" id="nombre" class="inputs"> <br>
+                    <label for="email">Email:</label> <br>
+                    <input type="email" name="email" id="email" class="inputs"> <br>
+                    <label for="numero">Número de telefono</label> <br>
+                    <input type="tel" name="numero" id="numero" class="inputs"> <br>
+                    <label for="comensales">Numero de comensales (Máximo 6):</label> <br>
+                    <select name="comensales" id="comensales">
+                        <optgroup>
+                            <option>1</option>
+                            <option selected>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                        </optgroup>
+                    </select> <br>
+                    <label for="fecha">Fecha y Hora de la reserva:</label> <br>
+                    <input type="date" name="fecha reserva" id="fecha" class="FyH">
+                    <input type="time" name="hora reserva" id="hora" class="FyH"><br>
+                    <label for="alergias">Alguno de los comensales tiene alguna alergia?</label><br>
+                    <input type="radio" name="radioAlergias" value="Si" class="radio"> Si 
+                    <input type="radio" name="radioAlergias" value="No" class="radio">  No <br>
+                    <label for="textoAlergias">Si es asi, diganos cuales son:</label> <br> <br>
+                    <textarea name="textoAlergias" id="textoAlergias" cols="30" rows="10">Alergias</textarea> <br>
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">Acepto la politica de privacidad</label><br><br>
+                    <input type="submit" id="botonEnviar" value="Enviar">
+                </form>
+            </article>
+
+            <article id="zonaInformacion">
+
+            </article>
+        </section>
+    </main>
+
+
+
+</body>
+</html>

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- Esta linea la he sacado del foto Stack Overflow buscando el error del validador: "The character encoding was not declared. Proceeding using windows-1252" -->
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="CarpetaCSS/HeaderFooter.css">
     <link rel="stylesheet" href="CarpetaCSS/carta.css">
     <title>Carta - Restaurante Bar Manolo</title>
@@ -11,9 +13,9 @@
             <a href="PaginaPrincipal.html"><img src="images/LOGO.png" alt="Logo del bar" id="logo"></a>
               <ul>
                   <li><a href="PaginaPrincipal.html">RESTAURANTE</a></li>
-                  <li><a href="">CARTA</a></li>
+                  <li><a href="carta.html">CARTA</a></li>
                   <li><a href="">ESPECIALIDADES</a></li>
-                  <li><a href="">RESERVAS</a></li>
+                  <li><a href="reservas.html">RESERVAS</a></li>
               </ul>
           </nav> 
     </header>
@@ -94,7 +96,7 @@
             <h4 class="titulosAbajo">SUSCRÍBASE</h4>
             <form>
                 <p class="textoAbajo">Escriba su e-mail</p>
-                <input type="text" size="50" id="texto"> <br> <br>
+                <input type="text" id="texto"> <br> <br>
                 <input type="submit" value = "ENVIAR" id="boton">
             </form>
         </section>
