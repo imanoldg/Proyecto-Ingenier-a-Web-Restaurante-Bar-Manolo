@@ -24,7 +24,6 @@ img{
 #menu{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 2;
     grid-gap: 5%;
     padding-top: 6%;
     padding-left: 10%;

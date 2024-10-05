@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- Esta linea la he sacado del foto Stack Overflow buscando el error del validador: "The character encoding was not declared. Proceeding using windows-1252" -->
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="CarpetaCSS/HeaderFooter.css">
     <link rel="stylesheet" href="CarpetaCSS/reservas.css">
     <title>Reservas - Restaurante Bar Manolo</title>
@@ -49,8 +51,8 @@
                     <label for="fecha">Fecha y Hora de la reserva:</label> <br>
                     <input type="date" name="fecha reserva" id="fecha" class="FyH">
                     <input type="time" name="hora reserva" id="hora" class="FyH"><br>
-                    <label for="alergias">Alguno de los comensales tiene alguna alergia?</label><br>
-                    <input type="radio" name="radioAlergias" value="Si" class="radio"> Si 
+                    <label for="radioAlergias">Alguno de los comensales tiene alguna alergia?</label><br>
+                    <input type="radio" name="radioAlergias" id= "radioAlergias" value="Si" class="radio"> Si 
                     <input type="radio" name="radioAlergias" value="No" class="radio">  No <br>
                     <label for="textoAlergias">Si es asi, diganos cuales son:</label> <br> <br>
                     <textarea name="textoAlergias" id="textoAlergias" cols="30" rows="10">Alergias</textarea> <br>
@@ -84,7 +86,6 @@
             ¡Gracias por confiar en nosotros y ser parte de nuestra familia!
             </p>
         </section>
-
         <section id="seccionDerecha">
             <h4 class="titulosAbajo">SUSCRÍBASE</h4>
             <form>
