@@ -14,7 +14,7 @@
               <ul>
                   <li><a href="PaginaPrincipal.html">RESTAURANTE</a></li>
                   <li><a href="carta.html">CARTA</a></li>
-                  <li><a href="">ESPECIALIDADES</a></li>
+                  <li><a href="especialidades.html">ESPECIALIDADES</a></li>
                   <li><a href="reservas.html">RESERVAS</a></li>
               </ul>
           </nav> 
@@ -22,13 +22,14 @@
 
     <main>
 
-        <article id="fotoPrincipal">
-            <img src="images/fotoPrincipal3.png" alt="Foto del interior del restaurante">
-        </article>
+        <section id="portada">
+            <h1>BIENVENIDO</h1>
+        </section>
 
-        <article id="sobreNosotros">
-            <h1>¡Te invitamos a disfrutar de una experiencia gastronómica única!</h1>
-            <p>Nos encantaría que nos acompañaras en nuestro restaurante ubicado en Guarromán, Murcia, 
+        <section id="seccionInformacion">
+           <article class="sobreNosotros">
+                <h2>¡Te invitamos a disfrutar de una experiencia gastronómica única!</h2>
+                <p>Nos encantaría que nos acompañaras en nuestro restaurante ubicado en Guarromán, Murcia, 
                 donde la pasión por la buena comida se une con el ambiente acogedor para crear momentos inolvidables. <br> <br>
 
                 Te ofrecemos una amplia variedad de platos preparados con los mejores ingredientes locales y un toque especial de nuestra cocina. 
@@ -37,28 +38,25 @@
                 ¡Ven a visitarnos y déjate seducir por los sabores de nuestra cocina! <br> <br>
 
                 Te esperamos con los brazos abiertos.
-            </p>
-        </article>
+                </p>
+           </article>
 
-        <article id="partesDelBar">
-            <h1>Las partes de nuestro local</h1>
+           <aside class="infoaside">
+            <h3>Informate sobre las diferentes partes de nuestro local</h3>
+            <ol>
+                <li>El bar</li>
+                <li>El restaurante</li>
+                <li>La terraza</li>
+                <li>La sala de juegos</li>
+            </ol>
+        </aside>
+        </section>
+
+        <section class="seccionPartesDelBar">
+            <h2>Las partes de nuestro local</h2>
             
-            <table>
-                <tr>
-                    <th>El Bar</th>
-                    <th>El Restaurante</th>
-                    <th>La Terraza</th>
-                    <th>Sala de Juegos</th>
-                </tr>
-
-                <tr>
-                    <td><img src="images/fotoBar.jpg" alt="Foto de la zona del bar" width="100%"></td>
-                    <td id="fotoAjustar"><img src="images/fotoPrincipal.jpg" alt="Foto de la zona del restaurante" width="60%"></td>
-                    <td><img src="images/fotoTerraza.jpg" alt="Foto de la zona de la terraza" width="100%"></td>
-                    <td><img src="images/fotoSalaJuegos.jpg" alt="Foto de la zona de la sala de juegos" width="100%"></td>
-                </tr>
-            </table>
-        </article>
+            
+        </section>
 
 
     </main>

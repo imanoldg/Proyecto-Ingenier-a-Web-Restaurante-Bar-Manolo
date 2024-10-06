@@ -1,0 +1,41 @@
+#portada{
+    padding-top: 15%;
+    padding-bottom: 8%;
+    text-align: center;
+    background-image: url(../images/ImagenEspecialidades/portada_Especialidades.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 40px;
+    color: white;
+}
+
+.seccion{
+    margin-top: 8%;
+    margin-bottom: 10%;
+}
+
+/* Esto lo he hecho con ayuda de un tutorial de Youtube */
+.contenedorImagenes{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 2%;
+}
+
+.imagen{
+    width: 20%;
+    margin: 0;
+}
+
+.texto{
+    margin-top: 2%;
+    font-size: 20px;
+    text-align: center;
+    width: 40%;
+}

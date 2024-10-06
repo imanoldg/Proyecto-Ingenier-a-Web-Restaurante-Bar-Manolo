@@ -2,14 +2,14 @@
     padding-top: 15%;
     padding-bottom: 8%;
     text-align: center;
-    background-image: url(../images/Reserva.jpg);
+    background-image: url(../images/ImagenReserva/portada_Reserva.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     font-size: 40px;
 }
 
-#Formulario{
+.Formulario{
     align-items: center;
     margin-top: 8%;
     margin-left: 35%;
@@ -111,4 +111,26 @@ label{
     padding-bottom: 2%;
     font-size: 30px;
     margin-left: 5%;
+}
+
+.horario{
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.horario h2{
+    font-size: 35px;
+    margin-bottom: 3%;
+}
+
+.horario table{
+    max-width: 80%;
+    border-collapse: collapse;
+
+}
+
+.horario th, td{
+    border: 3px solid rgb(224, 126, 126);
+    border-radius: 4px;
+    padding: 10px;
 }
