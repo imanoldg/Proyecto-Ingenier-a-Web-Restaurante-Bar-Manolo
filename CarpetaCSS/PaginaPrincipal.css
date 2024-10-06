@@ -3,14 +3,14 @@ body{
 }
 
 #portada{
-    padding-top: 15%;
-    padding-bottom: 10%;
+    padding-top: 25%;
+    padding-bottom: 25%;
     text-align: center;
     background-image: url(../images/imagenMain/fotoPrincipal3.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    font-size: 40px;
+    font-size: 60px;
     color: white;
 }
 
@@ -37,7 +37,7 @@ body{
 }
 
 .sobreNosotros p{
-    font-size: 20px;
+    font-size: 24px;
     width: 80%;
 }
 
@@ -64,12 +64,49 @@ body{
 }
 
 .seccionPartesDelBar{
-    margin-top: 10%;
+    margin-top: 5%;
     text-align: center;
     margin-bottom: 10%;
 }
 
 .seccionPartesDelBar h2{
     font-size: 40px;
-    margin-bottom: 2%;
+    text-align: center;
+    margin-bottom: 3%;
 }
+
+.seccionPartesDelBar hr{
+    background-color: white;
+    height: 10px;
+    border: 0;
+    width: 100%;
+}
+
+.contenedor{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.contenedor .contenido{
+    text-align: center;
+    margin-top: 7%;
+}
+
+.contenedor .contenido h3{
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+
+.contenedor .contenido p{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 21px;
+}
+
+.contenedor img{
+    width: 40%;
+    float: right;
+    margin-right: 3%;
+}
+
