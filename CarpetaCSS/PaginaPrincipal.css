@@ -115,3 +115,37 @@ body{
     margin-right: 3%;
 }
 
+@media(max-width: 768px){
+
+    #portada{
+        font-size: 20px;
+    }
+
+    .sobreNosotros{
+        margin-left: 0%;
+    }
+
+    .sobreNosotros h2{
+        text-align: left;
+        font-size: 8px;
+        margin-left: 5%;
+    }
+
+    .sobreNosotros p{
+        font-size: 6px;
+        margin-left: 5%;
+    }
+
+    .infoaside{
+        margin: 0;
+    }
+
+    .infoaside h3{
+        font-size: 7px;
+        margin-top: 10%;
+    }
+
+    .infoaside li{
+        font-size: 5px;
+    }
+}
