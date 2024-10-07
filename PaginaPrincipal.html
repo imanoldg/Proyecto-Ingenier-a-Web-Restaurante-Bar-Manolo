@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CarpetaCSS/HeaderFooter.css">
     <link rel="stylesheet" href="CarpetaCSS/PaginaPrincipal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="icon" href="images/icono.png">
     <title>Restaurante Bar Manolo</title>
 </head>
@@ -12,7 +13,12 @@
    
     <header>
         <nav>
-            <a href="PaginaPrincipal.html"><img src="images/LOGO.png" alt="Logo del bar"id="logo"></a>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </label>
+
+            <a href="PaginaPrincipal.html" id="contenedorLogo"><img src="images/LOGO.png" alt="Logo del bar"id="logo"></a>
               <ul>
                   <li><a href="PaginaPrincipal.html">RESTAURANTE</a></li>
                   <li><a href="carta.html">CARTA</a></li>
@@ -131,8 +137,8 @@
         <section id="seccionDerecha">
             <h4 class="titulosAbajo">SUSCRÍBASE</h4>
             <form>
-                <p class="textoAbajo">Escriba su e-mail</p>
-                <input type="text" size="50" id="texto"> <br> <br>
+                <label for="textoEmail" id="labelEmail">Escriba su email</label> <br>
+                <input type="text" size="50" id="textoEmail"> <br>
                 <input type="submit" value = "ENVIAR" id="boton">
             </form>
         </section>

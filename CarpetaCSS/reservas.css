@@ -134,3 +134,45 @@ label{
     border-radius: 4px;
     padding: 10px;
 }
+
+@media(max-width: 768px){
+    #portada{
+        font-size: 20px;
+        padding-top: 70%;
+        padding-bottom: 35%;
+    }
+
+    #mapa{
+        width: 100%;
+    }
+
+    .horario{
+        margin: 0;
+    }
+
+    .horario table{
+        width: 100%;
+    }
+
+    .Formulario{
+        margin-left: 10%;
+        text-align: left;
+        width: 80%;
+    }
+
+    #tituloFormulario{
+        margin-left: 0;
+    }
+
+    #comensales{
+        width: 20%;
+    }
+
+    #checkbox{
+        margin-left: 0;
+    }
+
+    #botonEnviar{
+        margin-left: 0;
+    }
+}
