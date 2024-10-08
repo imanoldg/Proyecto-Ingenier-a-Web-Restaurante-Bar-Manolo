@@ -11,7 +11,6 @@
 }
 
 .Formulario{
-    align-items: center;
     margin-top: 8%;
     margin-left: 35%;
     margin-bottom: 10%;
@@ -23,7 +22,7 @@
     padding-bottom: 2%;
     font-family: "Josefin Sans", sans-serif;
     font-size: 30px;
-    margin-left: 10%;
+    margin-left: 2%;
 }
 
 label{
@@ -117,7 +116,11 @@ label{
     padding-bottom: 2%;
     font-family: "Josefin Sans", sans-serif;
     font-size: 30px;
-    margin-left: 5%;
+    margin-left: 0%;
+}
+
+#mapa{
+    width: 75%;
 }
 
 .horario{
