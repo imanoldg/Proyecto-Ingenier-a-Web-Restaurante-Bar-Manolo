@@ -1,26 +1,47 @@
 #portada{
-    padding-top: 15%;
-    padding-bottom: 8%;
+    padding-top: 25%;
+    padding-bottom: 25%;
     text-align: center;
     background-image: url(../images/ImagenEspecialidades/portada_Especialidades.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     font-family: "Updock", cursive;
     font-size: 70px;
     color: white;
 }
 
 .seccion{
-    margin-top: 8%;
-    margin-bottom: 10%;
+    padding-top: 40%; 
+    padding-bottom: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter:brightness(0.4);
+    background-attachment: fixed;
 }
 
-/* Esto lo he hecho con ayuda de un tutorial de Youtube */
-.contenedorImagenes{
-    display: flex;
-    justify-content: center;
-    gap: 5%;
+#seccionEmbutidos{
+    background-image: url(../images/ImagenEspecialidades/embutidos.jpg);
+}
+
+#seccionCarnes{
+    background-image: url(../images/ImagenEspecialidades/solomillo.jpg);
+}
+
+#seccionPescados{
+    background-image: url(../images/ImagenEspecialidades/merluza.jpg);
+}
+
+#seccionPostres{
+    background-image: url(../images/ImagenEspecialidades/crema-catalana.png);
+}
+
+hr{
+    height: 20px;
+    background-color: rgba(0,0,0,0.8);
+    border: 0;
 }
 
 .titulo{
@@ -28,11 +49,6 @@
     font-family: "Josefin Sans", sans-serif;
     font-size: 35px;
     margin-bottom: 2%;
-}
-
-.imagen{
-    width: 20%;
-    margin: 0;
 }
 
 .texto{
@@ -54,17 +70,6 @@
     .seccion{
         display: flex;
         flex-direction: column;
-    }
-
-    .contenedorImagenes{
-        flex-direction: column;
-    }
-
-    .imagen{
-        text-align: center;
-        width: 60%;
-        padding-bottom: 10%;
-        margin-left: 20%;
     }
 
     .texto{
