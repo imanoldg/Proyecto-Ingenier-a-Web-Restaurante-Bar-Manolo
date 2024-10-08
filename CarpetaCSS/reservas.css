@@ -6,7 +6,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    font-size: 40px;
+    font-size: 70px;
+    font-family: "Updock", cursive;
 }
 
 .Formulario{
@@ -20,12 +21,14 @@
 
 #tituloFormulario{
     padding-bottom: 2%;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 30px;
     margin-left: 10%;
 }
 
 label{
     font-size: 20px;
+    font-family: "Baloo Paaji 2", sans-serif;
 }
 
 .inputs{
@@ -63,6 +66,7 @@ label{
     border: 1px solid #51515137;
     cursor: pointer;
     outline: none;
+    font-family: "Baloo Paaji 2", sans-serif;
 }
 
 .FyH:focus{
@@ -74,6 +78,7 @@ label{
     margin-bottom: 24px;
     width: 3%;
 }
+
 
 #textoAlergias{
     width: 70%;
@@ -98,17 +103,19 @@ label{
     margin-bottom: 48px;
     color: white;
     background-color: rgb(27, 27, 27);
-    padding: 15px;
+    padding: 7px;
     width: 30%;
     border: 0;
     border-radius: 6px;
-    font-size: 17px;
+    font-family: "Baloo Paaji 2", sans-serif;
+    font-size: 23px;
     cursor: pointer;
     margin-left: 20%;
 }
 
 #tituloMapa{
     padding-bottom: 2%;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 30px;
     margin-left: 5%;
 }
@@ -119,6 +126,7 @@ label{
 }
 
 .horario h2{
+    font-family: "Josefin Sans", sans-serif;
     font-size: 35px;
     margin-bottom: 3%;
 }
@@ -135,9 +143,17 @@ label{
     padding: 10px;
 }
 
+.horario td{
+    font-family: "Baloo Paaji 2", sans-serif;
+}
+
+.horario th{
+    font-family: "Josefin Sans", sans-serif;
+}
+
 @media(max-width: 768px){
     #portada{
-        font-size: 20px;
+        font-size: 50px;
         padding-top: 70%;
         padding-bottom: 35%;
     }

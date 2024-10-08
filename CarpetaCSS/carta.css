@@ -1,6 +1,7 @@
 h2{
     padding-bottom: 5px;
     padding-top: 3%;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 img{
@@ -9,13 +10,14 @@ img{
 
 #portada{
     padding-top: 15%;
+    font-family: "Updock", cursive;
     padding-bottom: 8%;
     text-align: center;
     background-image: url(../images/ImagenCarta/portada_Carta.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    font-size: 40px;
+    font-size: 70px;
 }
 
 #menu{
@@ -61,11 +63,13 @@ img{
 
 .textoMenu{
     font-size:x-large;
+    font-family: "Baloo Paaji 2", sans-serif;
+    line-height: 150%;
 }
 
 @media(max-width: 768px){
     #portada{
-        font-size: 20px;
+        font-size: 50px;
         padding-top: 60%;
         padding-bottom: 50%;
     }
